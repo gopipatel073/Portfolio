@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.ULClass {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #336381;
+  }
+  
+  #name{
+    font-weight: bold;
+    color: rgb(124, 114, 114);
+    letter-spacing: 5px;
+  }
+
+  .LIClass {
+      float: left;
+  }
+
+  footer{
+    margin-bottom: -60px;
+    text-align: center;
+  }
+
+  .LIClass a {
+    display: block;
+    color: yellowgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .LIClass a:hover {
+    background-color: navy;
+  }
+  
+  p{
+    text-align: justify;
+    padding: 20px;
+  
+  }
+  .fontsize-big{
+    font-size: 26px;
+  }
+  .name{
+    padding: 0;
+  }
+  footer p{
+      text-align: center;
+      padding: 20px;
+      margin: 0 auto;
+      width: 100%;
+      
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .contact-form{
+    margin: 0 auto;
+    width: 33%;
+  }
+  #contactme{
+    margin-bottom: 50px;
+  }
+.site-bg{
+  background: url(./images/site-bg.jpg);
+  background-size: cover;
+}
